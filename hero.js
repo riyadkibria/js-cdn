@@ -1,4 +1,4 @@
-<script>
+
 // Select the cart container, total price element, and cart count element
 const cartDiv = document.getElementById('my-cart');
 const totalPriceElement = document.getElementById('product-total');
@@ -89,4 +89,4 @@ function recalculateTotal() {
   totalPriceElement.textContent = `Total: $${totalPrice.toFixed(2)}`;
 }
 
-</script>
+
